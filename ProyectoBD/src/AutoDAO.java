@@ -112,6 +112,7 @@ public class AutoDAO {
         System.out.print("Ingrese ID del auto para borrar sus datos: ");
         int id_auto = sc.nextInt();
         borrarAuto(id_auto);
+        System.out.println("-----------------");
     }
     public static void editarAuto(){
         Scanner sc = new Scanner(System.in);

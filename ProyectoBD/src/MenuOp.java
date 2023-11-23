@@ -95,6 +95,7 @@ public class MenuOp {
             System.out.println("(1) Eliminar cliente");
             System.out.println("(2) Eliminar auto");
             System.out.println("(3) Atras");
+            System.out.println("Ingrese un numero de opcion >>");
             opcion=sc.nextInt();
             switch (opcion){
                 case 1:
